@@ -2,7 +2,7 @@
 
 > [wɜːst] A tasty end-to-end test runner for JavaScript Libraries
 
-[![Build Status](https://api.travis-ci.org/gr2m/wurst.svg?branch=gh-pages)](https://travis-ci.org/gr2m/wurst/)
+[![Build Status](https://api.travis-ci.org/gr2m/wurst.svg?branch=master)](https://travis-ci.org/gr2m/wurst/)
 
 Write tests once, run them in
 
