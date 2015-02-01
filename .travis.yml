@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+- '0.10'
+
+env:
+  matrix:
+  - WURST_CLIENT=""
+  - WURST_CLIENT=node
+  # - WURST_CLIENT=selenium:firefox
+  # - WURST_CLIENT=saucelabs:chrome
