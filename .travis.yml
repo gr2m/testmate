@@ -3,6 +3,11 @@ language: node_js
 node_js:
 - '0.10'
 
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - "sleep 5"
+
 env:
   global:
     - secure: DiA2NTe1td+7KTCvoXCne6pM5hbbHNTnm/H3r98Teixu29JIHb0jc5lLgvaJcHg5IsFXf2Uh9wSPfIwglDlzZFY3CCgPM77q7UaqEe8Vn08Koqa9oM5cS9f8CKXmM3wOBDziHxBfRQw/GDPimdQl36A5U1yUGcMTqZzCwPiz7CE=
