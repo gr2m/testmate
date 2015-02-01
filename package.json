@@ -4,7 +4,8 @@
   "description": "[wɜːst] A tasty end-to-end test runner for JavaScript Libraries",
   "main": "index.js",
   "scripts": {
-    "test": "node ./bin/wurst example-test.js"
+    "jshint": "jshint -c .jshintrc lib/ bin/ *.js",
+    "test": "npm run jshint && node ./bin/wurst example-test.js"
   },
   "bin": "./bin/wurst",
   "repository": {
@@ -30,5 +31,8 @@
     "lodash": "^3.0.1",
     "mocha": "^2.1.0",
     "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
   }
 }

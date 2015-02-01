@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var main = require('../');
+var argv = require('optimist').argv;
+
+argv.testsPath = argv._[0];
+delete argv._;
+delete argv.$0;
+main(argv);
