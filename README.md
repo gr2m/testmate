@@ -24,11 +24,13 @@ Then you can run it with different clients
 
 ```js
 # run in node
-CLIENT=node wurst test/test-mylib.js
-# run in selenium
-CLIENT=selenium:firefox wurst test/test-mylib.js
-# run in saucelabs
-SAUCE_USERNAME="user" SAUCE_ACCESS_KEY="key" CLIENT="saucelabs:internet explorer:10:Windows 8" wurst test/test-mylib.js
+WURST_CLIENT=node wurst test/test-mylib.js
+
+# run in local browser
+WURST_CLIENT=selenium:firefox wurst test/test-mylib.js
+
+# run in any browser/plattform/version using saucelabs
+SAUCE_USERNAME="user" SAUCE_ACCESS_KEY="key" WURST_CLIENT="saucelabs:internet explorer:10:Windows 8" wurst test/test-mylib.js
 ```
 
 ## wurst?
