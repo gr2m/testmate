@@ -9,3 +9,5 @@ env:
   - WURST_CLIENT=node
   # - WURST_CLIENT=selenium:firefox
   # - WURST_CLIENT=saucelabs:chrome
+
+sudo: false
