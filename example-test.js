@@ -5,4 +5,7 @@ describe('myLib', function () {
     var foo = 'bar';
     expect(foo).to.equal('bar');
   });
+  it.skip('should not pass', function () {
+    expect('foo').to.equal('bar');
+  });
 });
