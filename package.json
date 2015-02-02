@@ -37,6 +37,7 @@
     "querystring": "^0.2.0",
     "request": "^2.51.0",
     "sauce-connect-launcher": "^0.9.3",
+    "selenium-download": "^2.0.0",
     "wd": "^0.3.11"
   },
   "devDependencies": {
