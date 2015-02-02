@@ -11,8 +11,8 @@ before_script:
 env:
   global:
     # saucelabs
-    - secure: DiA2NTe1td+7KTCvoXCne6pM5hbbHNTnm/H3r98Teixu29JIHb0jc5lLgvaJcHg5IsFXf2Uh9wSPfIwglDlzZFY3CCgPM77q7UaqEe8Vn08Koqa9oM5cS9f8CKXmM3wOBDziHxBfRQw/GDPimdQl36A5U1yUGcMTqZzCwPiz7CE=
-    - secure: EOScFOD6EFq6QsjYO+5oHhYz2E0JYIYGJXyBlmhWtQi+IYYbsl26O5AR/ridYWKsF0P8pGHzCzo+mfb5S6BzOnBKntvA88JGSzmmTGibuI7qhDKBhbIYdIdAnxx/Z876+7B+bfVJvvJjMs2zSuzcWWTPOS1mCrDj4eBiNm/q/00=
+    - secure: KrtbuxIJsAISCSGVRZjBBmWftVh6/qVGiUUBbj75v9bPXvhKUiJq8F/xvj0mvjQEiqcna8mcjZBoXwLpiQr9GNikfhOyYej4pZkgIydXTTvPv6mXblvx4OwGJhamu3u66EDd0NXODgjUX6rV+byjqjjPtbcfPydAFfa4r8R5v/8=
+    - secure: Rwkn25m7I0unlPl5hl/8YMFYQbiYcKQQva6+yI72/mu3TzkqpX+mSVWvUR+nzb9zLwnezm23IUbKMBSLYHnl1aE5r2OohlQrQwuu+SGYKwcPlcpeb4VFQ2gtkO3F1P0dL7rg7vR+wewfX0ch+UW+wuUtrLp2JUmplksSkAnVfjE=
   matrix:
   - TEST_CLIENT=""
   - TEST_CLIENT=node
