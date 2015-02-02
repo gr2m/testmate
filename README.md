@@ -47,7 +47,7 @@ SAUCE_USERNAME="user" SAUCE_ACCESS_KEY="key" wurst client="saucelabs:internet ex
 
 ## Projects testing with wurst
 
-- https://github.com/gr2m/initials
+- [initials](https://github.com/gr2m/initials)
 
 add yours, send a pull request <3
 
