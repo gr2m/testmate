@@ -18,6 +18,7 @@
       });
       var expect = chai.expect;
       var scriptsToLoad = location.search.match(/testFiles=([^&]+)/).pop().split(',');
+      scriptsToLoad = scriptsToLoad.map(decodeURIComponent);
 
       // Thanks to http://engineeredweb.com/blog/simple-async-javascript-loader/
       function asyncLoadScript(url, callback) {

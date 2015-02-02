@@ -6,6 +6,12 @@ var argv = require('optimist').argv;
 argv.testsPath = argv._[0];
 delete argv._;
 delete argv.$0;
+
+if (argv.require) {
+  argv.require = argv.require.split(',');
+}
+
+
 main(argv, function(errNr) {
   console.log('done');
   process.exit(errNr || 0);
