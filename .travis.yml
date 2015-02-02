@@ -16,7 +16,8 @@ env:
   - WURST_CLIENT=""
   - WURST_CLIENT=node
   - WURST_CLIENT=selenium:firefox
-  - WURST_CLIENT=selenium:chrome
+  # no chrome on travis :(
+  # - WURST_CLIENT=selenium:chrome
   - WURST_CLIENT="saucelabs:internet explorer:10:Windows 8"
 
 sudo: false
