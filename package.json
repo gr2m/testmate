@@ -1,6 +1,6 @@
 {
   "name": "wurst",
-  "version": "1.0.0-prerelease",
+  "version": "1.0.0",
   "description": "[wɜːst] A tasty end-to-end test runner for JavaScript Libraries",
   "main": "index.js",
   "scripts": {
