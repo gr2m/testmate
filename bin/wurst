@@ -13,6 +13,6 @@ if (argv.require) {
 
 
 main(argv, function(errNr) {
-  console.log('done');
+  console.log('\nAll tests finished.');
   process.exit(errNr || 0);
 });

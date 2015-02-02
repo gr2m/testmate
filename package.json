@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "jshint": "jshint -c .jshintrc lib/ bin/ *.js",
-    "test": "npm run jshint && node ./bin/wurst example-test.js"
+    "test": "npm run jshint && node ./bin/wurst test/*-test.js"
   },
   "bin": "./bin/wurst",
   "repository": {
