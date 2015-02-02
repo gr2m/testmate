@@ -10,6 +10,7 @@ before_script:
 
 env:
   global:
+    # saucelabs
     - secure: DiA2NTe1td+7KTCvoXCne6pM5hbbHNTnm/H3r98Teixu29JIHb0jc5lLgvaJcHg5IsFXf2Uh9wSPfIwglDlzZFY3CCgPM77q7UaqEe8Vn08Koqa9oM5cS9f8CKXmM3wOBDziHxBfRQw/GDPimdQl36A5U1yUGcMTqZzCwPiz7CE=
     - secure: EOScFOD6EFq6QsjYO+5oHhYz2E0JYIYGJXyBlmhWtQi+IYYbsl26O5AR/ridYWKsF0P8pGHzCzo+mfb5S6BzOnBKntvA88JGSzmmTGibuI7qhDKBhbIYdIdAnxx/Z876+7B+bfVJvvJjMs2zSuzcWWTPOS1mCrDj4eBiNm/q/00=
   matrix:
