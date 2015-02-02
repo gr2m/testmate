@@ -1,16 +1,16 @@
 {
-  "name": "wurst",
+  "name": "testmate",
   "version": "1.0.0",
-  "description": "[wɜːst] A tasty end-to-end test runner for JavaScript Libraries",
+  "description": "A humble cross node/browser/saucelabs test runner",
   "main": "index.js",
   "scripts": {
     "jshint": "jshint -c .jshintrc lib/ bin/ *.js",
-    "test": "npm run jshint && node ./bin/wurst test/*-test.js"
+    "test": "npm run jshint && node ./bin/testmate test/*-test.js"
   },
-  "bin": "./bin/wurst",
+  "bin": "./bin/testmate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gr2m/wurst.git"
+    "url": "https://github.com/gr2m/testmate.git"
   },
   "keywords": [
     "test",
@@ -21,9 +21,9 @@
   "author": "Gregor Martynus <gregor@martynus.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gr2m/wurst/issues"
+    "url": "https://github.com/gr2m/testmate/issues"
   },
-  "homepage": "https://github.com/gr2m/wurst",
+  "homepage": "https://github.com/gr2m/testmate",
   "dependencies": {
     "beefy": "^2.1.2",
     "browserify": "^8.1.3",
