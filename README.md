@@ -57,6 +57,11 @@ add yours, send a pull request <3
 
 —[Stephan Remmler](https://www.youtube.com/watch?v=a4JSE32fuOc)
 
+## Credits
+
+The idea and lots of its code is taken from [PouchDB](https://github.com/pouchdb/pouchdb)'s
+test setup.
+
 ## License
 
 MIT
