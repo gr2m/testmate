@@ -1,6 +1,6 @@
 {
   "name": "testmate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A humble cross node/browser/saucelabs test runner",
   "main": "index.js",
   "scripts": {
