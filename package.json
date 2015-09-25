@@ -1,11 +1,11 @@
 {
   "name": "testmate",
-  "version": "1.0.1",
   "description": "A humble cross node/browser/saucelabs test runner",
   "main": "index.js",
   "scripts": {
     "jshint": "jshint -c .jshintrc lib/ bin/ *.js",
-    "test": "npm run jshint && node ./bin/testmate test/*-test.js"
+    "test": "npm run jshint && node ./bin/testmate test/*-test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "bin": "./bin/testmate",
   "repository": {
@@ -41,6 +41,7 @@
     "wd": "^0.3.11"
   },
   "devDependencies": {
-    "jshint": "^2.6.0"
+    "jshint": "^2.6.0",
+    "semantic-release": "^4.3.5"
   }
 }
