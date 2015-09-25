@@ -1,7 +1,18 @@
+sudo: false
 language: node_js
-
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
 node_js:
-- '0.10'
+  - 4
+before_install:
+  - npm i -g npm@^2.0.0
+before_script:
+  - npm prune
+after_success:
+  - npm run semantic-release
 
 before_script:
   - "export DISPLAY=:99.0"
@@ -17,8 +28,4 @@ env:
   - TEST_CLIENT=""
   - TEST_CLIENT=node
   - TEST_CLIENT=selenium:firefox
-  # no chrome on travis :(
-  # - TEST_CLIENT=selenium:chrome
   - TEST_CLIENT="saucelabs:internet explorer:10:Windows 8"
-
-sudo: false
