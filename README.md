@@ -32,7 +32,7 @@ describe('myLib', function () {
 
 Then you can run it with different clients
 
-```js
+```shell
 # run in node (default)
 testmate --client=node test/test-mylib.js
 
